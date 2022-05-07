@@ -3,8 +3,12 @@ body {
   font-weight: 500;
 }
 
-#demo .minibox {
+#demo .box {
+  border: 1px solid red;
+}
+#demo .box .minibox {
   border: 1px solid red;
   width: 100px;
   height: 100px;
+  display: inline-block;
 }/*# sourceMappingURL=style.css.map */

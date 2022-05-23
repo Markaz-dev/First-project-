@@ -1,4 +1,142 @@
 body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
+}
+body .imgbox {
+  overflow: hidden;
+}
+body .imgbox img {
+  width: 100%;
+}
+body section {
+  padding: 50px 0;
+}
+
+header {
+  background-color: #4d4747;
+  padding: 20px;
+}
+header .imgbox {
+  width: 187px;
+}
+header a {
+  font-size: 21px;
+  margin-right: 65px;
+}
+header a:hover {
+  color: #ccc91e;
+}
+
+#welcometo {
+  background-image: url("assets/img/header-bg.jpg");
+  background-position: center center;
+  background-repeat: no repeat;
+  background-size: cover;
+  padding: 100px;
+}
+#welcometo .textbox {
+  padding: 120px 0;
+}
+#welcometo .textbox h3 {
+  font-size: 36px;
+  color: #fff;
+}
+#welcometo .textbox h1 {
+  font-size: 72px;
+  font-weight: 700;
+  margin: 30px 0 60px;
+  color: #fff;
+}
+#welcometo .textbox .btn {
+  background-color: #fff025;
+  padding: 15px 25px;
+  font-size: 20px;
+  color: #fff;
+}
+
+#services .textbox {
+  padding: 40px 0;
+  text-align: center;
+}
+#services .textbox h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+#services .textbox h2 {
+  font-size: 18px;
+  color: #7a7a7a;
+  margin: 20px 0;
+}
+#services .textbox h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 20px;
+}
+#services .textbox p {
+  color: #6c757d;
+  line-height: 30px;
+  font-size: 19px;
+}
+#services .icon {
+  text-align: center;
+  font-size: 90px;
+}
+
+#portfolio {
+  background-color: #dedede;
+}
+#portfolio .textbox {
+  text-align: center;
+  margin: 40px 0;
+}
+#portfolio .textbox h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 40px 0;
+}
+#portfolio .textbox h2 {
+  font-size: 19px;
+  color: #757373;
+  margin: 30px 0;
+}
+#portfolio .textbox h3 {
+  font-weight: 700;
+  font-size: 25px;
+  margin: 15px 0;
+}
+#portfolio .textbox h4 {
+  font-size: 20px;
+  color: #363636;
+  margin: 15px 0;
+}
+#portfolio .imgbox {
+  width: 420px;
+}
+
+#about .textbox {
+  text-align: right;
+}
+#about .imgbox {
+  width: 100px;
+}
+
+#ouramazingteam {
+  background-color: #e6e6e6;
+}
+#ouramazingteam .textbox {
+  text-align: center;
+}
+#ouramazingteam .textbox h1 {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 20px 0;
+}
+#ouramazingteam .icon i {
+  font-size: 27px;
+}
+#ouramazingteam .imgbox {
+  border: 3px solid #949494;
+  border-radius: 70px;
+  width: 200px;
+  margin: 0 100px;
 }/*# sourceMappingURL=style.css.map */

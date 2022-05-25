@@ -26,6 +26,11 @@ header a {
 header a:hover {
   color: #ccc91e;
 }
+@media screen and (max-width: 1000px) {
+  header a {
+    font-size: 18px;
+  }
+}
 
 #welcometo {
   background-image: url("assets/img/header-bg.jpg");
@@ -41,17 +46,33 @@ header a:hover {
   font-size: 36px;
   color: #fff;
 }
+@media screen and (max-width: 1000px) {
+  #welcometo .textbox h3 {
+    font-size: 20px;
+  }
+}
 #welcometo .textbox h1 {
   font-size: 72px;
   font-weight: 700;
   margin: 30px 0 60px;
   color: #fff;
 }
+@media screen and (max-width: 1000px) {
+  #welcometo .textbox h1 {
+    font-size: 36px;
+  }
+}
 #welcometo .textbox .btn {
   background-color: #fff025;
   padding: 15px 25px;
   font-size: 20px;
   color: #fff;
+}
+@media screen and (max-width: 1000px) {
+  #welcometo .textbox .btn {
+    font-size: 10px;
+    padding: 25px 35px;
+  }
 }
 
 #services .textbox {
